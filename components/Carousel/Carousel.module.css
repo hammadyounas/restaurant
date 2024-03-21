@@ -1,0 +1,17 @@
+.customCarousel .slick-slide {
+    width: 100%; /* Set the desired width for the carousel slides */
+    height: auto; /* Set the desired height for the carousel slides */
+  }
+  
+  .customCarousel .slick-slide > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc; /* Add a background color for demonstration */
+  }
+  .carousel-image{
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: auto; /* Set the desired height for the carousel images */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+  } 
+  
